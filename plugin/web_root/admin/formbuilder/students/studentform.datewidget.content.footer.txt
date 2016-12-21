@@ -1,0 +1,22 @@
+<!--NoLink-->
+<script>
+    angular.element(document).ready(function() {
+        scope = angular.element(document).scope();
+        scope.$watchCollection(function() {
+            return angular.element('.date-widget').length > 0 ? angular.element('.date-widget') : [];
+        }, function(inputs) {
+            angular.forEach(inputs, function(input) {
+                input = angular.element(input);
+                input = input.find('input');
+                input.addClass('psDateWidget');
+            });
+            jsLazyLoader();
+        });
+    });
+</script>
+
+<style>
+    .ui-datepicker-trigger {
+        margin-left: 0 !important;
+    }
+</style>

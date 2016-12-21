@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+    xmlns="http://plugin.powerschool.pearson.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    description="Form Builder - Date Widget on Forms"
+    name="Form Builder Date Widget"
+    version="1.0"
+    xsi:schemaLocation="http://plugin.powerschool.pearson.com
+        plugin.xsd">
+    <oauth/>
+    <publisher name="AccelaSchool">
+        <contact email="info@accelaschool.com"/>
+    </publisher>
+</plugin>
